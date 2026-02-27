@@ -1,0 +1,18 @@
+nav{
+  text-align: center;
+  
+}
+nav li{
+  list-style: none;
+
+}
+
+nav li a{
+  text-decoration: none;
+}
+
+nav ul{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}

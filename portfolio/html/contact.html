@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="../css/contact.css">
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="./educations.html">Education</a></li>
+        <li><a href="./projects.html">Projects</a></li>
+        <li><a href="./experience.html">Experience</a></li>
+      </ul>
+    </nav>
+
+    <h2>Contact Me</h2>
+
+    <form>
+      <fieldset>
+        <legend>Contact Form</legend>
+
+        <table>
+          <tr>
+            <td><label>First Name:</label></td>
+            <td><input type="text" required /></td>
+          </tr>
+
+          <tr>
+            <td><label>Last Name:</label></td>
+            <td><input type="text" required /></td>
+          </tr>
+
+          <tr>
+            <td>Gender:</td>
+            <td>
+              <input type="radio" name="gender" value="male" required />
+              <label for="male">Male</label>
+
+              <input type="radio" name="gender" value="female" />
+              <label for="female">Female</label>
+            </td>
+          </tr>
+
+          <tr>
+            <td><label for="email">Email:</label></td>
+            <td><input type="email" required /></td>
+          </tr>
+
+          <tr>
+            <td><label for="company">Company:</label></td>
+            <td><input type="text" /></td>
+          </tr>
+
+          <tr>
+            <td>Reason of Contact:</td>
+            <td>
+              <input type="checkbox" name="reason" value="projects" /> Projects
+              <input type="checkbox" name="reason" value="thesis" /> Thesis
+              <input type="checkbox" name="reason" value="job" /> Job
+            </td>
+          </tr>
+
+          <tr>
+            <td>Topics:</td>
+            <td>
+              <input type="checkbox" name="topics" value="web" /> Web
+              Development
+              <input type="checkbox" name="topics" value="mobile" /> Mobile
+              Development
+              <input type="checkbox" name="topics" value="ai" /> AI/ML
+              Development
+            </td>
+          </tr>
+
+          <tr>
+            <td><label for="date">Consultation Date:</label></td>
+            <td><input type="date" required /></td>
+          </tr>
+
+          <tr>
+            <td></td>
+            <td>
+              <input type="submit" value="Submit" />
+              <input type="reset" value="Reset" />
+            </td>
+          </tr>
+        </table>
+      </fieldset>
+    </form>
+
+    <footer>
+      <p>Connect with me:</p>
+      <a href="https://github.com/AshiqurAshik" target="_blank">
+        <img src="../data/github.png" alt="GitHub" width="30" />
+      </a>
+      <a href="https://www.linkedin.com/in/ashiqur-rahman-it/" target="_blank">
+        <img src="../data/linkedin.png" alt="LinkedIn" width="40" />
+      </a>
+    </footer>
+  </body>
+</html>

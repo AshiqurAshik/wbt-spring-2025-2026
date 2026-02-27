@@ -1,0 +1,21 @@
+h2 {
+  color: red;
+}
+
+span {
+  color: red;
+}
+
+label {
+  font-weight: bold;
+}
+
+input {
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.miniSize {
+  width: 30px;
+}
